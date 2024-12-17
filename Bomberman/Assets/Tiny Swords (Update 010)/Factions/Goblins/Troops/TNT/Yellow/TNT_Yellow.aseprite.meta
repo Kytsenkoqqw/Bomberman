@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 90a5d94273097074db0c4178b94caaad
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: TNT_Yellow_Frame_0
+    originalName: 
+    pivot: {x: 0.44705883, y: -0.826087}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 85
+      height: 69
+    spriteID: 8df930c9b5422fe4bb805141bbec3f7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: TNT_Yellow_Frame_1
+    originalName: 
+    pivot: {x: 0.44186047, y: -0.8382353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 4
+      width: 86
+      height: 68
+    spriteID: 2b5362c2a4f47a74fbf8f329395b6449
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 4}
+  - name: TNT_Yellow_Frame_2
+    originalName: 
+    pivot: {x: 0.44578314, y: -0.8382353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 4
+      width: 83
+      height: 68
+    spriteID: 284fe0ad04c3e77479fd4cd39cfea1a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 4}
+  - name: TNT_Yellow_Frame_3
+    originalName: 
+    pivot: {x: 0.43373492, y: -0.8382353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 81
+      width: 83
+      height: 68
+    spriteID: e1d9b87a570410c4d81f6fb4cba9b76a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 81}
+  - name: TNT_Yellow_Frame_4
+    originalName: 
+    pivot: {x: 0.4302326, y: -0.8636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 286
+      y: 4
+      width: 86
+      height: 66
+    spriteID: e3d61bce9c8a47c4da2dd12636cadbde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 286, y: 4}
+  - name: TNT_Yellow_Frame_5
+    originalName: 
+    pivot: {x: 0.4534884, y: -0.8769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 179
+      y: 81
+      width: 86
+      height: 65
+    spriteID: 254517aeec185c24c8c0cc34f78ab5ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 179, y: 81}
+  - name: TNT_Yellow_Frame_6
+    originalName: 
+    pivot: {x: 0.44827586, y: -0.8636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 4
+      width: 87
+      height: 66
+    spriteID: 2089382e50a33a0459cdc7753bb62966
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 4}
+  - name: TNT_Yellow_Frame_7
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.921875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 164
+      width: 80
+      height: 64
+    spriteID: 9f7ef8c2f5bb09a4b84d7c02bd2a298f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 164}
+  - name: TNT_Yellow_Frame_8
+    originalName: 
+    pivot: {x: 0.4375, y: -0.880597}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 236
+      width: 80
+      height: 67
+    spriteID: 6b4080171ba374843b57661e8d76e917
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 236}
+  - name: TNT_Yellow_Frame_9
+    originalName: 
+    pivot: {x: 0.43373492, y: -0.9833333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 164
+      width: 83
+      height: 60
+    spriteID: 6bf77324506a6b247ab40c4c594d6c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 164}
+  - name: TNT_Yellow_Frame_10
+    originalName: 
+    pivot: {x: 0.44705883, y: -0.921875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 164
+      width: 85
+      height: 64
+    spriteID: 4546d0891f4b4534bafa57dc20f58e0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 164}
+  - name: TNT_Yellow_Frame_11
+    originalName: 
+    pivot: {x: 0.47560975, y: -0.880597}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 358
+      y: 81
+      width: 82
+      height: 67
+    spriteID: 62a80c78a844f324f8a54389a93ce990
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 358, y: 81}
+  - name: TNT_Yellow_Frame_12
+    originalName: 
+    pivot: {x: 0.475, y: -0.9833333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 164
+      width: 80
+      height: 60
+    spriteID: 8f2e762691fbd41489529dd7cbecffd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 164}
+  - name: TNT_Yellow_Frame_13
+    originalName: 
+    pivot: {x: 0.5324675, y: -0.7916667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 81
+      width: 77
+      height: 72
+    spriteID: ab327d00b7e31074e8bda4cedd786463
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 81}
+  - name: TNT_Yellow_Frame_14
+    originalName: 
+    pivot: {x: 0.59210527, y: -0.76}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 81
+      width: 76
+      height: 75
+    spriteID: cce34a57722ffbb478cae15a34d026f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 81}
+  - name: TNT_Yellow_Frame_15
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 311
+      width: 75
+      height: 60
+    spriteID: 2fe1b4354f1657845939a60806792361
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 231, y: 311}
+  - name: TNT_Yellow_Frame_16
+    originalName: 
+    pivot: {x: 0.51351345, y: -0.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 164
+      width: 74
+      height: 63
+    spriteID: 06f7806e799064649b73fe2f09e09d88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 164}
+  - name: TNT_Yellow_Frame_17
+    originalName: 
+    pivot: {x: 0.53424656, y: -0.8382353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 311
+      width: 73
+      height: 68
+    spriteID: 0b5e2360299bf9d41a416eedf6ebd044
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 311}
+  - name: TNT_Yellow_Frame_18
+    originalName: 
+    pivot: {x: 0.640625, y: -0.7037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 311
+      width: 64
+      height: 81
+    spriteID: a46989c0e21b3df47b851951f6c8517b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 311}
+  - name: TNT_Yellow_Frame_19
+    originalName: 
+    pivot: {x: 0.5606061, y: -0.7916667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 311
+      width: 66
+      height: 72
+    spriteID: 0e2a6857afb93e741a771ec45443d464
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 311}
+  - name: TNT_Yellow_Frame_20
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.4705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 481
+      y: 164
+      width: 27
+      height: 51
+    spriteID: 4fdaad10851403d458f097d67accdc8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 481, y: 164}
+  - name: TNT_Yellow_Frame_21
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.4423077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 446
+      y: 164
+      width: 27
+      height: 52
+    spriteID: bb8a9cc08c93cf543abe53b8b5f4bb9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 446, y: 164}
+  - name: TNT_Yellow_Frame_22
+    originalName: 
+    pivot: {x: 0.46153846, y: -1.4705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 311
+      width: 26
+      height: 51
+    spriteID: 8b47f8ee61a923743bd416e6e56a4c8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 311}
+  - name: TNT_Yellow_Frame_23
+    originalName: 
+    pivot: {x: 0.48, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 483
+      y: 81
+      width: 25
+      height: 50
+    spriteID: d7c07510da0c9384c81d7d4b3a214428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 483, y: 81}
+  - name: TNT_Yellow_Frame_24
+    originalName: 
+    pivot: {x: 0.44444445, y: -1.4705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 81
+      width: 27
+      height: 51
+    spriteID: 586832d6583e7dc43bd52e9f2ffd2a98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 81}
+  - name: TNT_Yellow_Frame_25
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.4705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 4
+      width: 28
+      height: 51
+    spriteID: b4025a02e4768f24cb2dd11d78a12c5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 471, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2058001501
+    name: TNT_Yellow
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: TNT_Yellow_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 57
+        width: 85
+        height: 69
+      spriteId: 8df930c9b5422fe4bb805141bbec3f7a
+    - name: TNT_Yellow_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 57
+        width: 86
+        height: 68
+      spriteId: 2b5362c2a4f47a74fbf8f329395b6449
+    - name: TNT_Yellow_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 57
+        width: 83
+        height: 68
+      spriteId: 284fe0ad04c3e77479fd4cd39cfea1a9
+    - name: TNT_Yellow_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 60
+        y: 57
+        width: 83
+        height: 68
+      spriteId: e1d9b87a570410c4d81f6fb4cba9b76a
+    - name: TNT_Yellow_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 57
+        width: 86
+        height: 66
+      spriteId: e3d61bce9c8a47c4da2dd12636cadbde
+    - name: TNT_Yellow_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 57
+        width: 86
+        height: 65
+      spriteId: 254517aeec185c24c8c0cc34f78ab5ad
+    - name: TNT_Yellow_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 57
+        width: 87
+        height: 66
+      spriteId: 2089382e50a33a0459cdc7753bb62966
+    - name: TNT_Yellow_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 60
+        y: 59
+        width: 80
+        height: 64
+      spriteId: 9f7ef8c2f5bb09a4b84d7c02bd2a298f
+    - name: TNT_Yellow_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 61
+        y: 59
+        width: 80
+        height: 67
+      spriteId: 6b4080171ba374843b57661e8d76e917
+    - name: TNT_Yellow_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 60
+        y: 59
+        width: 83
+        height: 60
+      spriteId: 6bf77324506a6b247ab40c4c594d6c6a
+    - name: TNT_Yellow_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 59
+        width: 85
+        height: 64
+      spriteId: 4546d0891f4b4534bafa57dc20f58e0e
+    - name: TNT_Yellow_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 59
+        width: 82
+        height: 67
+      spriteId: 62a80c78a844f324f8a54389a93ce990
+    - name: TNT_Yellow_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 59
+        width: 80
+        height: 60
+      spriteId: 8f2e762691fbd41489529dd7cbecffd8
+    - name: TNT_Yellow_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 57
+        width: 77
+        height: 72
+      spriteId: ab327d00b7e31074e8bda4cedd786463
+    - name: TNT_Yellow_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 51
+        y: 57
+        width: 76
+        height: 75
+      spriteId: cce34a57722ffbb478cae15a34d026f2
+    - name: TNT_Yellow_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 56
+        y: 57
+        width: 75
+        height: 60
+      spriteId: 2fe1b4354f1657845939a60806792361
+    - name: TNT_Yellow_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 57
+        width: 74
+        height: 63
+      spriteId: 06f7806e799064649b73fe2f09e09d88
+    - name: TNT_Yellow_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 57
+        width: 73
+        height: 68
+      spriteId: 0b5e2360299bf9d41a416eedf6ebd044
+    - name: TNT_Yellow_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 57
+        width: 64
+        height: 81
+      spriteId: a46989c0e21b3df47b851951f6c8517b
+    - name: TNT_Yellow_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 57
+        width: 66
+        height: 72
+      spriteId: 0e2a6857afb93e741a771ec45443d464
+    - name: TNT_Yellow_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 75
+        width: 27
+        height: 51
+      spriteId: 4fdaad10851403d458f097d67accdc8d
+    - name: TNT_Yellow_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 75
+        width: 27
+        height: 52
+      spriteId: bb8a9cc08c93cf543abe53b8b5f4bb9e
+    - name: TNT_Yellow_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 75
+        width: 26
+        height: 51
+      spriteId: 8b47f8ee61a923743bd416e6e56a4c8d
+    - name: TNT_Yellow_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 75
+        width: 25
+        height: 50
+      spriteId: d7c07510da0c9384c81d7d4b3a214428
+    - name: TNT_Yellow_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 75
+        width: 27
+        height: 51
+      spriteId: 586832d6583e7dc43bd52e9f2ffd2a98
+    - name: TNT_Yellow_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 84
+        y: 75
+        width: 28
+        height: 51
+      spriteId: b4025a02e4768f24cb2dd11d78a12c5c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}
