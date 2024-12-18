@@ -7,35 +7,22 @@ using UnityEngine;
 public class DropBomb : MonoBehaviour
 {
    [SerializeField] private GameObject _bomb;
-   [SerializeField] private Transform _characterTransform;
-   
-   private bool _placeBomb;
+
+
+   public bool _placeBomb;
 
    private void Update()
    {
       if (Input.GetKeyDown(KeyCode.Space) && !_placeBomb) 
       {
-         _placeBomb = true;
-         Explosion();
+         PlaceBomb();
       }
    }
 
-   private void Explosion()
+   private void PlaceBomb()
    {
-      if (_placeBomb)
-      {
-         StartCoroutine(ExplosionBomb());
-      }
+      _placeBomb = true;
+      Instantiate(_bomb, transform.position, Quaternion.identity);
    }
-
-   private IEnumerator ExplosionBomb()
-   {
-      if (_placeBomb)
-      {
-         var currentBomb = Instantiate(_bomb, _characterTransform.position, Quaternion.identity);
-         yield return new WaitForSeconds(2f);
-         Destroy(currentBomb);
-         _placeBomb = false;
-      }
-   }
+   
 }

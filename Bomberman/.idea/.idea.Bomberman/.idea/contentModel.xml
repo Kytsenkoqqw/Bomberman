@@ -25,6 +25,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Bomb" t="Include">
+            <e p="ExplosionBomb.cs" t="Include" />
+          </e>
           <e p="Character" t="Include">
             <e p="CharacterBehaviour.cs" t="Include" />
             <e p="DropBomb.cs" t="Include" />

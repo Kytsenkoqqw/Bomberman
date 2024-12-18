@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameZone/GameZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameZone/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/GridManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" />
       </list>
     </option>
   </component>
@@ -62,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734441699221</updated>
-      <workItem from="1734441734500" duration="6309000" />
+      <workItem from="1734441734500" duration="7449000" />
+      <workItem from="1734521420288" duration="6609000" />
     </task>
     <servers />
   </component>
