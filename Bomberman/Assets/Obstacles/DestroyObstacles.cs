@@ -17,16 +17,26 @@ public class DestroyObstacles : MonoBehaviour
             collider2D = GetComponent<Collider2D[]>();
         }
     }
-    
-    private void OnCollisionEnter2D(Collision2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("DamageArea"))  // Здесь можно использовать любую метку, которая соответствует нужному объекту
+        if (other.gameObject.CompareTag("DamageArea"))
         {
             // Преобразуем мировую позицию столкновения в координаты Tilemap
             Vector3Int tilePosition = tilemap.WorldToCell(other.transform.position);
 
-            // Удаляем тайл в этой клетке
-            tilemap.SetTile(tilePosition, null);  // Удаляем тайл, заменяя его на null
+            // Поиск объекта, который был инстанцирован в этой клетке
+            Vector3 worldPosition = tilemap.CellToWorld(tilePosition);
+            Collider2D[] hitObjects = Physics2D.OverlapPointAll(worldPosition);
+
+            foreach (Collider2D hit in hitObjects)
+            {
+                if (hit.CompareTag("interactable"))  // Убедись, что у префаба есть нужный тег
+                {
+                    Debug.Log("bam");
+                    Destroy(hit.gameObject);  // Удаляем объект
+                }
+            }
         }
     }
 }

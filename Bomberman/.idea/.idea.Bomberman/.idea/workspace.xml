@@ -23,9 +23,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/GameZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/GridManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/DestroyEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Obstacles/DestroyObstacles.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +69,9 @@
       <option name="presentableId" value="Default" />
       <updated>1734441699221</updated>
       <workItem from="1734441734500" duration="7449000" />
-      <workItem from="1734521420288" duration="8536000" />
+      <workItem from="1734521420288" duration="9009000" />
+      <workItem from="1734610143831" duration="594000" />
+      <workItem from="1734775173531" duration="5639000" />
     </task>
     <servers />
   </component>

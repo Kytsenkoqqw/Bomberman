@@ -7,8 +7,6 @@ using UnityEngine;
 public class DropBomb : MonoBehaviour
 {
    [SerializeField] private GameObject _bomb;
-
-
    public bool _placeBomb;
 
    private void Update()
@@ -22,7 +20,7 @@ public class DropBomb : MonoBehaviour
    private void PlaceBomb()
    {
       _placeBomb = true;
-      Instantiate(_bomb, transform.position, Quaternion.identity);
+      Instantiate(_bomb, new Vector2(Mathf.Floor(transform.position.x) + 0.5f, Mathf.Floor(transform.position.y) + 0.5f), Quaternion.identity);
    }
    
 }

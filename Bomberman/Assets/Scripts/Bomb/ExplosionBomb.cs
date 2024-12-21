@@ -11,8 +11,7 @@ public class ExplosionBomb : MonoBehaviour
    [SerializeField] private Collider2D[] _colliders;
    [SerializeField] private Animator _animator;
    [SerializeField] private GameObject[] _damageArea;
-   
-   
+   [SerializeField] private Transform _characterTransform;
    
    private void OnEnable()
    {
@@ -24,15 +23,11 @@ public class ExplosionBomb : MonoBehaviour
    {
       StartCoroutine(Explosion());
    }
-
+   
+   
 
    private IEnumerator Explosion()
    {
-      foreach (var collider in _colliders)
-      {
-         collider.isTrigger = false;
-      }
-      
       yield return new WaitForSeconds(2f);
       _animator.SetTrigger("Explosion");
       
@@ -40,6 +35,7 @@ public class ExplosionBomb : MonoBehaviour
       {
          obj.SetActive(true);
       }
+
       yield return  new WaitForSeconds(1.5f);
       _dropBomb._placeBomb = false;
       
@@ -47,12 +43,7 @@ public class ExplosionBomb : MonoBehaviour
       {
          obj.SetActive(false);
       }
-      
-      foreach (var collider in _colliders)
-      {
-         collider.isTrigger = true;
-      }
-      
+
       Destroy(gameObject);
    }
 }
