@@ -8,11 +8,9 @@ using UnityEngine.Serialization;
 public class ExplosionBomb : MonoBehaviour
 {
    private DropBomb _dropBomb;
-   [SerializeField] private Collider2D[] _colliders;
    [SerializeField] private Animator _animator;
    [SerializeField] private GameObject[] _damageArea;
-   [SerializeField] private Transform _characterTransform;
-   
+
    private void OnEnable()
    {
       _animator.GetComponent<Animator>();
@@ -23,8 +21,6 @@ public class ExplosionBomb : MonoBehaviour
    {
       StartCoroutine(Explosion());
    }
-   
-   
 
    private IEnumerator Explosion()
    {

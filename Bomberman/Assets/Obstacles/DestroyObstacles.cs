@@ -25,16 +25,18 @@ public class DestroyObstacles : MonoBehaviour
             // Преобразуем мировую позицию столкновения в координаты Tilemap
             Vector3Int tilePosition = tilemap.WorldToCell(other.transform.position);
 
-            // Поиск объекта, который был инстанцирован в этой клетке
-            Vector3 worldPosition = tilemap.CellToWorld(tilePosition);
-            Collider2D[] hitObjects = Physics2D.OverlapPointAll(worldPosition);
+            // Находим центр клетки
+            Vector3 cellCenterPosition = tilemap.GetCellCenterWorld(tilePosition);
+
+            // Поиск объектов только в пределах этой клетки
+            Collider2D[] hitObjects = Physics2D.OverlapPointAll(cellCenterPosition);
 
             foreach (Collider2D hit in hitObjects)
             {
-                if (hit.CompareTag("interactable"))  // Убедись, что у префаба есть нужный тег
+                if (hit.CompareTag("interactable")) // Проверяем тег объекта
                 {
                     Debug.Log("bam");
-                    Destroy(hit.gameObject);  // Удаляем объект
+                    Destroy(hit.gameObject); // Удаляем объект
                 }
             }
         }
