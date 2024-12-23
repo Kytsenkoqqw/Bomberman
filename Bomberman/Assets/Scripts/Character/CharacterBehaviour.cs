@@ -14,4 +14,12 @@ public class CharacterBehaviour : MonoBehaviour
         
         transform.Translate(moveHorizontal, moveVertical, 0);
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("obstacles"))
+        {
+            Debug.Log("obstacles");
+        }
+    }
 }

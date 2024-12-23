@@ -9,12 +9,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/DestroyEnemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameZone/GameZone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/DestroyObstacles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyObstacles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameZone/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,11 +21,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/GameZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/GridManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/DestroyEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Obstacles/DestroyObstacles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -73,7 +73,7 @@
       <workItem from="1734610143831" duration="594000" />
       <workItem from="1734775173531" duration="7439000" />
       <workItem from="1734956452384" duration="938000" />
-      <workItem from="1734958631917" duration="1844000" />
+      <workItem from="1734958631917" duration="9193000" />
     </task>
     <servers />
   </component>
