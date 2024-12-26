@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Random = UnityEngine.Random;
 
-public class DestroyObstacles : MonoBehaviour
+public class DestroyInteractable : MonoBehaviour
 {
     [SerializeField] private Tilemap tilemap;  // Ссылка на Tilemap
-    [SerializeField] private Collider2D[] collider2D;  // Ссылка на коллайдер
-
+    [SerializeField] private Collider2D[] collider2D;
+    [SerializeField] private GameObject[] _improvementPrefab;
+    [SerializeField] private float improvementDropChance = 0.5f;
+    
     void Start()
     {
         // Если на объекте нет компонента Collider2D, то мы пытаемся взять его из сцены.
@@ -33,10 +36,16 @@ public class DestroyObstacles : MonoBehaviour
 
             foreach (Collider2D hit in hitObjects)
             {
-                if (hit.CompareTag("interactable")) // Проверяем тег объекта
+                if (hit.CompareTag("interactable")) 
                 {
                     Debug.Log("bam");
-                    Destroy(hit.gameObject); // Удаляем объект
+                    Destroy(hit.gameObject);
+                    
+                    if (Random.value < improvementDropChance)
+                    {
+                        GameObject improvment = _improvementPrefab[Random.Range(0, _improvementPrefab.Length)];
+                        Instantiate(improvment, cellCenterPosition, Quaternion.identity);
+                    }
                 }
             }
         }
