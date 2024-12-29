@@ -29,8 +29,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyObstacles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/QuitImproving.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyInteractable.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +79,9 @@
       <workItem from="1734956452384" duration="938000" />
       <workItem from="1734958631917" duration="9500000" />
       <workItem from="1735052756756" duration="1576000" />
-      <workItem from="1735215093695" duration="5535000" />
+      <workItem from="1735215093695" duration="5944000" />
+      <workItem from="1735243350742" duration="1911000" />
+      <workItem from="1735482027340" duration="617000" />
     </task>
     <servers />
   </component>

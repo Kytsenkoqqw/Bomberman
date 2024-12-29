@@ -12,14 +12,16 @@ public class DestroyInteractable : MonoBehaviour
     [SerializeField] private GameObject[] _improvementPrefab;
     [SerializeField] private float improvementDropChance = 0.5f;
     
-    void Start()
+    private HashSet<Vector3Int> droppedPositions = new HashSet<Vector3Int>();
+    
+    /*void Start()
     {
         // Если на объекте нет компонента Collider2D, то мы пытаемся взять его из сцены.
         if (collider2D == null)
         {
             collider2D = GetComponent<Collider2D[]>();
         }
-    }
+    }*/
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -28,8 +30,15 @@ public class DestroyInteractable : MonoBehaviour
             // Преобразуем мировую позицию столкновения в координаты Tilemap
             Vector3Int tilePosition = tilemap.WorldToCell(other.transform.position);
 
+            // Проверяем, было ли уже улучшение в этой клетке
+            if (droppedPositions.Contains(tilePosition))
+            {
+                Debug.Log("Улучшение уже выпало в этой клетке.");
+                return;
+            }
+
             // Находим центр клетки
-            Vector3 cellCenterPosition = tilemap.GetCellCenterWorld(tilePosition);
+            Vector2 cellCenterPosition = tilemap.GetCellCenterWorld(tilePosition);
 
             // Поиск объектов только в пределах этой клетки
             Collider2D[] hitObjects = Physics2D.OverlapPointAll(cellCenterPosition);
@@ -40,11 +49,15 @@ public class DestroyInteractable : MonoBehaviour
                 {
                     Debug.Log("bam");
                     Destroy(hit.gameObject);
-                    
+
+                    // Решаем, будет ли выпадать улучшение
                     if (Random.value < improvementDropChance)
                     {
-                        GameObject improvment = _improvementPrefab[Random.Range(0, _improvementPrefab.Length)];
-                        Instantiate(improvment, cellCenterPosition, Quaternion.identity);
+                        GameObject improvement = _improvementPrefab[Random.Range(0, _improvementPrefab.Length)];
+                        Instantiate(improvement, cellCenterPosition, Quaternion.identity);
+
+                        // Добавляем позицию клетки в HashSet
+                        droppedPositions.Add(tilePosition);
                     }
                 }
             }
