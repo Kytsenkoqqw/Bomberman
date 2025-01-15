@@ -41,5 +41,6 @@ public class ExplosionBomb : MonoBehaviour
       }
 
       Destroy(gameObject);
+      _dropBomb._countBomb = 0;
    }
 }

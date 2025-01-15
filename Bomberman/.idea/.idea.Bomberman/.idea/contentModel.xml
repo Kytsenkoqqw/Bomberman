@@ -84,7 +84,8 @@
             <e p="DestroyInteractable.cs" t="Include" />
           </e>
           <e p="Improving" t="Include">
-            <e p="QuitImproving.cs" t="Include" />
+            <e p="Improvement.cs" t="Include" />
+            <e p="Improving.cs" t="Include" />
           </e>
         </e>
       </e>
