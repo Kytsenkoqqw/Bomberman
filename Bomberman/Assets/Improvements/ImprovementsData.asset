@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6483112fec524ae48b8c7b3da9a5bc1a, type: 3}
   m_Name: ImprovementsData
   m_EditorClassIdentifier: 
-  MoveSpeed: 4.5
-  MaxCountBomb: 2
+  MoveSpeed: 9
+  MaxCountBomb: 3
   Detonator: 1
+  DamageArea: {fileID: 5550105370107238289, guid: 7b01de2401de42f43b40061de06271a6, type: 3}

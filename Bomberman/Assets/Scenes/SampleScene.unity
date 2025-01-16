@@ -498,6 +498,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9189951882843736201, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
   m_PrefabInstance: {fileID: 1778942192817098717}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &354376098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1356358206133776357, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
+  m_PrefabInstance: {fileID: 1778942192817098717}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354376097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0083a772f69c2c646ae2862ffd9c058a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &354376105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +522,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data: {fileID: 11400000, guid: 5abeb81d5ffbd874ab8a427c51e6f98f, type: 2}
+--- !u!114 &354376106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354376097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64cf5710647a4691a72b10991999a559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dropBomb: {fileID: 354376098}
 --- !u!1 &491087077
 GameObject:
   m_ObjectHideFlags: 0
@@ -7097,9 +7121,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1356358206133776357, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
+      propertyPath: Bomb
+      value: 
+      objectReference: {fileID: 9054818194091358100, guid: da01acc913bdb044682830299631161b, type: 3}
+    - target: {fileID: 1356358206133776357, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
       propertyPath: _data
       value: 
       objectReference: {fileID: 11400000, guid: 5abeb81d5ffbd874ab8a427c51e6f98f, type: 2}
+    - target: {fileID: 1356358206133776357, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
+      propertyPath: _bombLvl2
+      value: 
+      objectReference: {fileID: 5550105370107238289, guid: 7b01de2401de42f43b40061de06271a6, type: 3}
     - target: {fileID: 1356358206133776357, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
       propertyPath: _bombCollider.Array.data[0]
       value: 
@@ -7187,6 +7219,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9189951882843736201, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 354376105}
+    - targetCorrespondingSourceObject: {fileID: 9189951882843736201, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 354376106}
   m_SourcePrefab: {fileID: 100100000, guid: 02a4ff6dca747c041bc25d8b72ee3f5c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

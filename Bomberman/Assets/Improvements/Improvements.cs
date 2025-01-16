@@ -8,5 +8,6 @@ namespace Improvements
         public float MoveSpeed;
         public int MaxCountBomb;
         public bool Detonator;
+        public GameObject DamageArea;
     }
 }

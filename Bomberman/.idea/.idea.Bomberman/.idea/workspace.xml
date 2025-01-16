@@ -34,11 +34,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/Improvment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/Improvement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/DestroyImproving.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Improvements/Improvements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/TakeDetonator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Improvements/Improvements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/TakeDamageAreaImproving.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <workItem from="1735913892668" duration="838000" />
       <workItem from="1736947519165" duration="4074000" />
       <workItem from="1736956020053" duration="915000" />
-      <workItem from="1737033997419" duration="3862000" />
+      <workItem from="1737033997419" duration="6912000" />
     </task>
     <servers />
   </component>

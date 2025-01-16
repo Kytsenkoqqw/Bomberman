@@ -11,25 +11,33 @@ public class DropBomb : MonoBehaviour
    public int  CountBomb;
    
    
-   [SerializeField] private GameObject _bomb;
+   public GameObject Bomb;
+
+   public bool IsLevelUpBomb;
+   
 
    private void Start()
    {
+      IsLevelUpBomb = false;
       _data.MaxCountBomb = 1;
    }
 
    public bool _placeBomb;
    private void Update()
    {
-      if (Input.GetKeyDown(KeyCode.Space) && !_placeBomb) 
+      if (Input.GetKeyDown(KeyCode.Space) && !_placeBomb && IsLevelUpBomb) 
       {
-         PlaceBomb();
+         PlaceBomb(Bomb);
+      }
+      else if (IsLevelUpBomb && Input.GetKeyDown(KeyCode.Space))
+      {
+         PlaceBomb(_data.DamageArea);
       }
    }
 
-   private void PlaceBomb()
+   private void PlaceBomb(GameObject bombPrefab)
    {
-      Instantiate(_bomb, new Vector2(Mathf.Floor(transform.position.x) + 0.5f, Mathf.Floor(transform.position.y) + 0.5f), Quaternion.identity);
+      Instantiate(bombPrefab, new Vector2(Mathf.Floor(transform.position.x) + 0.5f, Mathf.Floor(transform.position.y) + 0.5f), Quaternion.identity);
       CountBomb++;
       
       if (CountBomb >= _data.MaxCountBomb)
