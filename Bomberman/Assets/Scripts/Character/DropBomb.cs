@@ -20,16 +20,17 @@ public class DropBomb : MonoBehaviour
    {
       IsLevelUpBomb = false;
       _data.MaxCountBomb = 1;
+      CountBomb = 1;
    }
 
    public bool _placeBomb;
    private void Update()
    {
-      if (Input.GetKeyDown(KeyCode.Space) && !_placeBomb && IsLevelUpBomb) 
+      if (Input.GetKeyDown(KeyCode.Space) && !_placeBomb && !IsLevelUpBomb) 
       {
          PlaceBomb(Bomb);
       }
-      else if (IsLevelUpBomb && Input.GetKeyDown(KeyCode.Space))
+      else if (IsLevelUpBomb && Input.GetKeyDown(KeyCode.Space) && !_placeBomb)
       {
          PlaceBomb(_data.DamageArea);
       }

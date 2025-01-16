@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ImprovementsData
   m_EditorClassIdentifier: 
   MoveSpeed: 9
-  MaxCountBomb: 3
+  MaxCountBomb: 4
   Detonator: 1
   DamageArea: {fileID: 5550105370107238289, guid: 7b01de2401de42f43b40061de06271a6, type: 3}
