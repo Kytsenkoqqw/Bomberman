@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Improving/Improvement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Improving/DestroyImproving.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/DestroyEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,18 +24,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/GridManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/DestroyEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Obstacles/DestroyObstacles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyObstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameZone/DestroyInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/QuitImproving.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/Improving.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/Imorivment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/Improvment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Improving/Improvement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Improving/DestroyImproving.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DropBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Improvements/Improvements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/TakeDetonator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bomb/ExplosionBomb.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +91,9 @@
       <workItem from="1735243350742" duration="1911000" />
       <workItem from="1735482027340" duration="751000" />
       <workItem from="1735913892668" duration="838000" />
-      <workItem from="1736947519165" duration="2981000" />
+      <workItem from="1736947519165" duration="4074000" />
+      <workItem from="1736956020053" duration="915000" />
+      <workItem from="1737033997419" duration="3862000" />
     </task>
     <servers />
   </component>
@@ -96,5 +101,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1737035407289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1737035407289" />
   </component>
 </project>

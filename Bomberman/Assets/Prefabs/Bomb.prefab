@@ -159,6 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 110ab4718be2a62408c4003c99c57013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data: {fileID: 11400000, guid: 5abeb81d5ffbd874ab8a427c51e6f98f, type: 2}
   _animator: {fileID: 1263025345556924693}
   _damageArea:
   - {fileID: 6257778760616939181}

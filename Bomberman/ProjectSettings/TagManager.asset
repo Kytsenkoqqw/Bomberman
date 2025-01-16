@@ -8,6 +8,11 @@ TagManager:
   - interactable
   - Obstacles
   - Road
+  - Improving
+  - ImprovingSpeed
+  - ImprovingCountBomb
+  - ImprovingDamageArea
+  - ImprovingDetonator
   layers:
   - Default
   - TransparentFX

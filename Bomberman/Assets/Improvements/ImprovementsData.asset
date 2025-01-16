@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6483112fec524ae48b8c7b3da9a5bc1a, type: 3}
+  m_Name: ImprovementsData
+  m_EditorClassIdentifier: 
+  MoveSpeed: 4.5
+  MaxCountBomb: 2
+  Detonator: 1
