@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6294324671299478169}
   - component: {fileID: 1763031252562180079}
   - component: {fileID: 5212702632574800468}
+  - component: {fileID: -5653914340150487356}
   m_Layer: 0
   m_Name: Tilemap_Flat_15
   m_TagString: interactable
@@ -176,3 +177,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-5653914340150487356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421038440205348183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

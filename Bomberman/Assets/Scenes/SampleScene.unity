@@ -257,7 +257,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -323,7 +323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa5344564154b44aabcce3ac88c6ff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _moveSpeed: 1.5
   _target: {fileID: 354376112}
 --- !u!58 &179418534
 CircleCollider2D:
@@ -379,7 +378,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 0.5
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!4 &194278234 stripped

@@ -8,13 +8,19 @@ using Random = UnityEngine.Random;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed = 1.5f;
+    private NavMeshAgent _agent;
     [SerializeField] private Transform _target;
+    
+
+    private void Start()
+    {
+        _agent = GetComponent<NavMeshAgent>();
+        _agent.updateRotation = false;
+        _agent.updateUpAxis = false;
+    }
 
     private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, _target.position, _moveSpeed * Time.deltaTime);
+        _agent.SetDestination(_target.position);
     }
-
-
 }
