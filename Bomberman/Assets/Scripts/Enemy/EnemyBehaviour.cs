@@ -21,6 +21,15 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Update()
     {
-        _agent.SetDestination(_target.position);
+        if (_target == null )
+        {
+            Debug.Log("Target is null");
+        }
+        else
+        {
+            _agent.SetDestination(_target.position);
+        }
+        
+        
     }
 }
