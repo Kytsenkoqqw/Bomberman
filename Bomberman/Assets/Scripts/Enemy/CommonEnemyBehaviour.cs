@@ -6,10 +6,10 @@ using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-public class EnemyBehaviour : MonoBehaviour
+public class CommonEnemyBehaviour : MonoBehaviour
 {
-    [SerializeField] private float _wanderRadius = 10f; // Радиус, в котором будут генерироваться точки
-    [SerializeField] private float _waitTime = 2f;      // Время ожидания перед движением к новой точке
+    [SerializeField] private float _wanderRadius = 10f; 
+    [SerializeField] private float _waitTime = 2f;     
     private NavMeshAgent _agent;
     private float _timer;
 
@@ -23,7 +23,6 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void Update()
     {
-        // Проверяем, достиг ли агент текущей цели
         if (!_agent.pathPending && _agent.remainingDistance < 0.5f)
         {
             _timer += Time.deltaTime;
@@ -37,14 +36,14 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void MoveToRandomPoint()
     {
-        Vector3 randomDirection = Random.insideUnitSphere * _wanderRadius; // Генерация случайного направления
-        randomDirection += transform.position; // Смещение в локальные координаты
+        Vector3 randomDirection = Random.insideUnitSphere * _wanderRadius; 
+        randomDirection += transform.position; 
 
         NavMeshHit hit;
         if (NavMesh.SamplePosition(randomDirection, out hit, _wanderRadius, NavMesh.AllAreas))
         {
             hit.position = new Vector2(Mathf.Floor(hit.position.x) + 0.5f, Mathf.Floor(hit.position.y) + 0.5f);
-            _agent.SetDestination(hit.position); // Устанавлив
+            _agent.SetDestination(hit.position); 
         }
     }
 }

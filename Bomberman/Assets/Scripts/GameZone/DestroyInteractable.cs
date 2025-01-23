@@ -13,15 +13,6 @@ public class DestroyInteractable : MonoBehaviour
     [SerializeField] private float improvementDropChance = 0.5f;
     
     private HashSet<Vector3Int> droppedPositions = new HashSet<Vector3Int>();
-    
-    /*void Start()
-    {
-        // Если на объекте нет компонента Collider2D, то мы пытаемся взять его из сцены.
-        if (collider2D == null)
-        {
-            collider2D = GetComponent<Collider2D[]>();
-        }
-    }*/
 
     private void OnTriggerEnter2D(Collider2D other)
     {

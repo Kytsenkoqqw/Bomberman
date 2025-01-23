@@ -36,13 +36,16 @@ public class GameManager : MonoBehaviour
 
     private void ShowGameOverMenu()
     {
-        _imagePanel.DOFade(1, 2f);
-        _gameOverMenu.DOScale(new Vector3(3, 5, 1), 0.5f);
+        Time.timeScale = 0;
+        _imagePanel.DOFade(1, 2f).SetUpdate(true);
+        _gameOverMenu.DOScale(new Vector3(3, 5, 1), 0.5f).SetUpdate(true);
     }
 
     private void RestartGame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
+        DOTween.KillAll();
     }
     
 }
